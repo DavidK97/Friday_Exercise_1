@@ -1,16 +1,13 @@
 package app;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.time.LocalDate;
 
-@NoArgsConstructor
+
 @AllArgsConstructor
 @Getter
-@Builder
+@ToString
 
 public class GardenTask extends Task {
     private String gardenLocation;
